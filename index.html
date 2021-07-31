@@ -34,13 +34,13 @@
             height: 150px;
         }
 
-        .underline:before {
+        .underline {
             content: "";
             position: absolute;
-            width: 4%;
+            width: 8%;
             height: 2px;
-            margin-top: 2%;
-            margin-left: 3.5%;
+            margin-top: 0%;
+            margin-left: 45%;
             background-color: red;
         }
 
@@ -65,13 +65,13 @@
         @media only screen and (max-width:688px) {
 
             /*only screen and jokhn media width max 688 hobe */
-            .underline:before {
+            .underline {
                 content: "";
                 position: absolute;
-                width: 15%;
+                width: 20%;
                 height: 2px;
-                margin-top: 5%;
-                margin-left: 8.5%;
+                margin-top: 0%;
+                margin-left: 37%;
                 background-color: red;
             }
 
@@ -92,16 +92,7 @@
         }
 
         /* tablet devices */
-        @media only screen and (min-width:689px) and (max-width:1300px) {
-            .underline:before {
-                content: "";
-                position: absolute;
-                width: 8%;
-                height: 2px;
-                margin-top: 2.5%;
-                margin-left: 3.0%;
-                background-color: red;
-            }
+        @media only screen and (min-width:689px) and (max-width:1400px) {
 
             .display1 {
                 display: none;
@@ -163,7 +154,10 @@
         <!-- Bike section -->
         <section class="container-fluid mt-5">
             <h1 class="text-secondary text-center">Fetured Bikes 2021</h1>
-            <h6 class="text-danger text-center underline">Best bike collection</h6>
+            <h6 class="text-danger text-center">Best bike collection</h6>
+            <div class="text-center">
+                <h6 class=" underline"></h6>
+            </div>
             <div class="row w-75 mx-auto row-cols-1 row-cols-lg-3 g-4 text-center m-5 p-3 ">
                 <div class="col">
                     <img class="img-fluid grayscale-bike" src="images/feature-bike.jpg" class="card-img-top" alt="...">
